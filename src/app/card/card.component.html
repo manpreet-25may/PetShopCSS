@@ -1,0 +1,21 @@
+
+<button  type="button" class="btn" (click)="senddata()">Display Content</button>
+ <br>
+ <div class="card-group" *ngFor="let x of data.data" >
+  <div class="card" *ngIf="data.visible">   
+  <!-- <img src="../assets\images\background.jpg" width="50px" height="300px" class="card-img-top" alt="..."> -->
+    <div class="card-body" >
+      <h5 class="card-title"></h5>
+      <p class="card-text"> 
+        ID: {{x.id}}<br>
+        Email: {{x.email}}<br>
+       First Name: {{x.first_name}}<br>
+        Last Name: {{x.last_name}}
+      </p>   
+    </div>
+  </div>
+  
+    
+
+  
+  

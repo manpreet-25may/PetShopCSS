@@ -1,0 +1,21 @@
+
+<button  type="button" class="btn" (click)="senddata()">Display data in Table</button>
+<br><br>
+<div class="table">
+<table>
+  <tr>
+    <td>ID</td>
+    <td>Email</td>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Photo</td> 
+  </tr>
+  <tr *ngFor= "let x of data?.data">
+    <td>{{x.id}}</td>
+    <td>{{x.email}}</td>
+    <td>{{x.first_name}}</td>
+    <td>{{x.last_name}}</td>
+    <td><img src="{{x.avatar}}"></td>
+    </tr>
+</table>
+</div>

@@ -1,0 +1,15 @@
+.danger {
+    color: red;
+}
+
+.no-danger {
+    color: blue;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
